@@ -10,13 +10,18 @@
 #include <logger.h>
 
 int main() {
+
   LOG_INIT_CONSOLE();  // console/color
 
   LOG(Debug) << "Debug";
+  
   LOG(Info) << "Info";
+  
   LOG(Warning) << "Warning";
+  
   LOG(Error) << "Error";
   
   LOG_SHUTDOWN();
+
 }
 ###
