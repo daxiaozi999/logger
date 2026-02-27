@@ -1,6 +1,6 @@
 项目名称：logger
 
-功能特性: I'm pretty lazy, so I'll leave the project exploration to you
+功能特性:  I'm pretty lazy, so I'll leave the project exploration to you
 
 如何运行：cmake
 
