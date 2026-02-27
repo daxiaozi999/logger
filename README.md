@@ -7,21 +7,21 @@
 使用示例：
 
 ###
-#include <logger.h>
+    #include <logger.h>
 
-int main() {
+    int main() {
 
-    LOG_INIT_CONSOLE();  // console/color
+        LOG_INIT_CONSOLE();  // console/color
 
-    LOG(Debug) << "Debug";
+        LOG(Debug) << "Debug";
   
-    LOG(Info) << "Info";
+        LOG(Info) << "Info";
   
-    LOG(Warning) << "Warning";
+        LOG(Warning) << "Warning";
   
-    LOG(Error) << "Error";
+        LOG(Error) << "Error";
   
-    LOG_SHUTDOWN();
+        LOG_SHUTDOWN();
 
-}
+    }
 ###
